@@ -140,8 +140,37 @@ async function fetchImageFile(imageUrl: string, fileName: string) {
   }
 
   const blob = await response.blob();
+  const mimeType = blob.type || "image/png";
 
-  return new File([blob], fileName, { type: blob.type || "image/png" });
+  if (mimeType === "image/png" || mimeType === "image/jpeg") {
+    return new File([blob], fileName, { type: mimeType });
+  }
+
+  // Convert non-JPEG/PNG formats (e.g. WebP) to PNG via canvas so the file
+  // name, extension, and MIME type are always consistent for the OpenAI upload.
+  const bitmap = await createImageBitmap(blob);
+  const canvas = document.createElement("canvas");
+  canvas.width = bitmap.width;
+  canvas.height = bitmap.height;
+  const ctx = canvas.getContext("2d");
+
+  if (!ctx) {
+    bitmap.close();
+    throw new Error("Canvas is not available for image format conversion.");
+  }
+
+  ctx.drawImage(bitmap, 0, 0);
+  bitmap.close();
+
+  const pngBlob = await new Promise<Blob>((resolve, reject) => {
+    canvas.toBlob(
+      (value) => (value ? resolve(value) : reject(new Error("WebP to PNG conversion failed."))),
+      "image/png",
+    );
+  });
+
+  const base = fileName.replace(/\.[^.]+$/, "");
+  return new File([pngBlob], `${base}.png`, { type: "image/png" });
 }
 
 async function fetchTargetCropImage(imageUrl: string, fileName: string) {

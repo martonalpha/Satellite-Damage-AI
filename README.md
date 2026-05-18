@@ -16,20 +16,23 @@ It pulls real ESA Sentinel-2 satellite images from before and after a damage eve
 
 ## Screenshots
 
-### Main Map
-![Main map with damage markers](docs/screenshots/map.png)
+### Main Map — Attack & Damage Markers
+![Attack and damage markers on Ukraine satellite map](docs/screenshots/map.png)
 
 ### Satellite Generator — Before/After Pair
 ![Before and after satellite image pair with red circle marker](docs/screenshots/generator.png)
 
-### AI Assessment Output
-![AI damage assessment result with confidence score and summary](docs/screenshots/assessment.png)
+### Satellite Change Detection — New Analysis
+![New analysis panel with before/after image upload and map view](docs/screenshots/assessment.png)
 
-### Commander Review Panel
-![Commander review panel with validate, hold, reject controls](docs/screenshots/commander.png)
+### Commander — AI Assessment Validation
+![Commander review panel with before/after comparison and AI brief cards](docs/screenshots/commander.png)
+
+### Marker Detail — AI Result on Map
+![Marker detail popup showing destroyed assessment with confidence score and AI summary](docs/screenshots/marker.png)
 
 ### AI Reliability Benchmark
-![Benchmark results showing 94% reliability and 100% no hallucination](docs/screenshots/benchmark.png)
+![AI Difference Benchmark page with reliability, hallucination, and detection metrics](docs/screenshots/benchmark.png)
 
 ---
 
