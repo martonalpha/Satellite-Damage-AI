@@ -126,10 +126,10 @@ This is version one. The pipeline is modular.
 
 | Component | Technology |
 |-----------|-----------|
-| Framework | Next.js 14 (App Router), TypeScript |
+| Framework | Next.js 16 (App Router), TypeScript |
 | Satellite imagery | ESA Sentinel-2 L2A via [Sentinel Hub Process API](https://www.sentinel-hub.com) |
 | Damage dataset | [UNOSAT Ukraine / Zenodo](https://zenodo.org/records/11385161) |
-| AI model | Claude (Anthropic) — multimodal vision |
+| AI model | OpenAI vision model via the Responses API |
 | Map | Custom slippy map, Esri World Imagery basemap |
 | Change detection | Client-side canvas pixel diff + Sobel edge strength heatmap |
 
@@ -151,17 +151,83 @@ npm install
 cp .env.example .env.local
 ```
 
-Fill in `.env.local`:
-- `ANTHROPIC_API_KEY` — from [console.anthropic.com](https://console.anthropic.com)
-- `SENTINELHUB_CLIENT_ID` + `SENTINELHUB_CLIENT_SECRET` — free account at [sentinel-hub.com](https://www.sentinel-hub.com), create an OAuth client
+Fill in `.env.local` with the credentials below. The file must be in the project root, next to `package.json`.
 
-### 3. Run
+```env
+OPENAI_API_KEY=your-openai-api-key-here
+OPENAI_MODEL=gpt-4.1-mini
+
+SENTINELHUB_CLIENT_ID=your-sentinel-hub-client-id
+SENTINELHUB_CLIENT_SECRET=your-sentinel-hub-client-secret
+SENTINELHUB_BASE_URL=https://services.sentinel-hub.com
+```
+
+Never commit `.env.local`. It is already ignored by Git.
+
+### 3. Where to get API keys
+
+#### OpenAI
+
+Used for AI image analysis in `/api/review`.
+
+1. Create or log in to an OpenAI Platform account: [https://platform.openai.com](https://platform.openai.com)
+2. Open the API keys page: [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+3. Click **Create new secret key**.
+4. Copy the key into `.env.local` as:
+
+```env
+OPENAI_API_KEY=your-openai-api-key-here
+```
+
+Official guide: [Where do I find my OpenAI API key?](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key)
+
+Optional model setting:
+
+```env
+OPENAI_MODEL=gpt-4.1-mini
+```
+
+Leave `OPENAI_MODEL` unchanged for the default setup.
+
+#### Sentinel Hub
+
+Used for satellite image generation in `/api/satellite/generate`.
+
+1. Create or log in to Sentinel Hub: [https://apps.sentinel-hub.com/dashboard/](https://apps.sentinel-hub.com/dashboard/)
+2. Open **User Settings** in the dashboard.
+3. Find **OAuth clients**.
+4. Create a new OAuth client.
+5. Copy the **Client ID** and **Client Secret** into `.env.local`:
+
+```env
+SENTINELHUB_CLIENT_ID=your-client-id
+SENTINELHUB_CLIENT_SECRET=your-client-secret
+SENTINELHUB_BASE_URL=https://services.sentinel-hub.com
+```
+
+Official auth docs: [Sentinel Hub authentication](https://docs.sentinel-hub.com/api/latest/api/overview/authentication/)
+
+### 4. Run
 
 ```bash
 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000)
+
+### 5. Deploying
+
+If you deploy to Vercel or another host, add the same environment variables in the host's project settings:
+
+```env
+OPENAI_API_KEY
+OPENAI_MODEL
+SENTINELHUB_CLIENT_ID
+SENTINELHUB_CLIENT_SECRET
+SENTINELHUB_BASE_URL
+```
+
+For Vercel: open your project → **Settings** → **Environment Variables**.
 
 ---
 
