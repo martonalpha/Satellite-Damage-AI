@@ -1,0 +1,15 @@
+{
+  "dataset": {
+    "id": "c3061b38-f191-49fc-b9fc-cbf65a922bfa",
+    "name": "satellite-flood-waters-extent-and-evolution-over-khersonska-oblast-in-ukraine-as-of-13-jun",
+    "title": "Satellite Flood Waters Extent and Evolution over Khersonska Oblast in Ukraine as of 13 June 2023"
+  },
+  "resource": {
+    "id": "7a06fb05-23e2-402e-b632-cd0715b4ca08",
+    "name": "FL20230606UKR_SHP.zip",
+    "format": "SHP",
+    "url": "https://unosat.org/static/unosat_filesystem/3623/FL20230606UKR_SHP.zip"
+  },
+  "importedAt": "2026-05-15T21:11:14.142Z",
+  "featureCount": 36363
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ukraine-damage-20260517010124-case-0032",
+  "title": "Ukraine damage case 0032",
+  "label": "Moderate Damage",
+  "location": "Chernihiv, Ukraine",
+  "lat": 51.52550709556651,
+  "lon": 31.359642679132154,
+  "bbox": [
+    31.352423456869104,
+    51.521015539691554,
+    31.366861901395204,
+    51.52999865144147
+  ],
+  "beforeDate": "2021-06-09",
+  "afterDate": "2026-04-30",
+  "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0032/before.webp",
+  "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0032/after.webp",
+  "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+  "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+  "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+  "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+  "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+  "generatedAt": "2026-05-17T01:02:42.856Z",
+  "bboxSizeMeters": 1000,
+  "properties": {
+    "originalFeatureProperties": {
+      "unosat_id": 14284,
+      "date": "2022-04-28T00:00:00Z",
+      "damage": 2,
+      "layer": "Chernihiv_28April2022_CDA",
+      "gdb": "CE20220223UKR_UNOSAT_Damage",
+      "city": "Chernihiv",
+      "country": "Ukraine",
+      "ep": 1,
+      "prev_date": null,
+      "prev_damage": -99,
+      "aoi": "UKR6"
+    },
+    "normalized": {
+      "damageField": "damage",
+      "damageLabel": "Moderate Damage",
+      "objectId": "14284",
+      "locationName": "Chernihiv, Ukraine",
+      "imageryDate": "2022-04-28T00:00:00Z",
+      "confidence": null,
+      "notes": null,
+      "warnings": []
+    }
+  }
+}

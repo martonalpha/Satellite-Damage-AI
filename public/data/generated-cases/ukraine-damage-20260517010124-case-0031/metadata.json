@@ -1,0 +1,50 @@
+{
+  "id": "ukraine-damage-20260517010124-case-0031",
+  "title": "Ukraine damage case 0031",
+  "label": "Moderate Damage",
+  "location": "Kherson, Ukraine",
+  "lat": 46.63693756771393,
+  "lon": 32.60617247289206,
+  "bbox": [
+    32.59963091760793,
+    46.63244601183897,
+    32.61271402817619,
+    46.641429123588885
+  ],
+  "beforeDate": "2021-06-09",
+  "afterDate": "2026-04-30",
+  "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0031/before.webp",
+  "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0031/after.webp",
+  "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+  "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+  "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+  "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+  "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+  "generatedAt": "2026-05-17T01:02:39.390Z",
+  "bboxSizeMeters": 1000,
+  "properties": {
+    "originalFeatureProperties": {
+      "unosat_id": 19798,
+      "date": "2022-10-14T00:00:00Z",
+      "damage": 2,
+      "layer": "damage_assessment",
+      "gdb": "Kherson_CDA_20221014",
+      "city": "Kherson",
+      "country": "Ukraine",
+      "ep": 1,
+      "prev_date": null,
+      "prev_damage": -99,
+      "aoi": "UKR16"
+    },
+    "normalized": {
+      "damageField": "damage",
+      "damageLabel": "Moderate Damage",
+      "objectId": "19798",
+      "locationName": "Kherson, Ukraine",
+      "imageryDate": "2022-10-14T00:00:00Z",
+      "confidence": null,
+      "notes": null,
+      "warnings": []
+    }
+  }
+}

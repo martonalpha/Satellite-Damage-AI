@@ -1,0 +1,15 @@
+{
+  "dataset": {
+    "id": "dff5defb-b730-400c-9726-21da48d94bbf",
+    "name": "floods-along-the-dnipro-river-ukraine-unosat-live-web-map",
+    "title": "Floods along the Dnipro River, Ukraine - UNOSAT Live Web Map"
+  },
+  "resource": {
+    "id": "309b4b06-2141-41b3-8a53-ace03bbc3dc8",
+    "name": "FL20230606UKR_SHP.zip",
+    "format": "SHP",
+    "url": "https://unosat.org/static/unosat_filesystem/3622/FL20230606UKR_SHP.zip"
+  },
+  "importedAt": "2026-05-15T23:11:59.798Z",
+  "featureCount": 36363
+}

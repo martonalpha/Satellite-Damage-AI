@@ -1,0 +1,50 @@
+{
+  "id": "ukraine-damage-20260517010124-case-0023",
+  "title": "Ukraine damage case 0023",
+  "label": "Moderate Damage",
+  "location": "Okhtyrka, Ukraine",
+  "lat": 50.31113996800008,
+  "lon": 34.93425642700004,
+  "bbox": [
+    34.92722318586752,
+    50.30664841212512,
+    34.941289668132555,
+    50.315631523875034
+  ],
+  "beforeDate": "2021-06-09",
+  "afterDate": "2026-04-30",
+  "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0023/before.webp",
+  "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0023/after.webp",
+  "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+  "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+  "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+  "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+  "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+  "generatedAt": "2026-05-17T01:02:20.951Z",
+  "bboxSizeMeters": 1000,
+  "properties": {
+    "originalFeatureProperties": {
+      "unosat_id": 15489,
+      "date": "2022-03-25T00:00:00Z",
+      "damage": 2,
+      "layer": "Okhtyrka_CDA_20220325",
+      "gdb": "CE20220223UKR_UNOSAT_Okhtyrka_CDA_20220325",
+      "city": "Okhtyrka",
+      "country": "Ukraine",
+      "ep": 1,
+      "prev_date": null,
+      "prev_damage": -99,
+      "aoi": "UKR15"
+    },
+    "normalized": {
+      "damageField": "damage",
+      "damageLabel": "Moderate Damage",
+      "objectId": "15489",
+      "locationName": "Okhtyrka, Ukraine",
+      "imageryDate": "2022-03-25T00:00:00Z",
+      "confidence": null,
+      "notes": null,
+      "warnings": []
+    }
+  }
+}

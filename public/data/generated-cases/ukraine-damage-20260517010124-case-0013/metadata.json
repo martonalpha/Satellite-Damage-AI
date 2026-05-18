@@ -1,0 +1,50 @@
+{
+  "id": "ukraine-damage-20260517010124-case-0013",
+  "title": "Ukraine damage case 0013",
+  "label": "Moderate Damage",
+  "location": "Kharkiv, Ukraine",
+  "lat": 50.04236167872176,
+  "lon": 36.34941109831684,
+  "bbox": [
+    36.34241731352033,
+    50.037870122846805,
+    36.356404883113356,
+    50.04685323459672
+  ],
+  "beforeDate": "2021-06-09",
+  "afterDate": "2026-04-30",
+  "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0013/before.webp",
+  "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0013/after.webp",
+  "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+  "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+  "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+  "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+  "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+  "generatedAt": "2026-05-17T01:01:56.789Z",
+  "bboxSizeMeters": 1000,
+  "properties": {
+    "originalFeatureProperties": {
+      "unosat_id": 24385,
+      "date": "2022-06-15T00:00:00Z",
+      "damage": 2,
+      "layer": "Kharkiv_CDA_20220615_Final",
+      "gdb": "Kharkiv_CDA_20220615",
+      "city": "Kharkiv",
+      "country": "Ukraine",
+      "ep": 2,
+      "prev_date": "2022-04-24T00:00:00Z",
+      "prev_damage": 2,
+      "aoi": "UKR7"
+    },
+    "normalized": {
+      "damageField": "damage",
+      "damageLabel": "Moderate Damage",
+      "objectId": "24385",
+      "locationName": "Kharkiv, Ukraine",
+      "imageryDate": "2022-06-15T00:00:00Z",
+      "confidence": null,
+      "notes": null,
+      "warnings": []
+    }
+  }
+}

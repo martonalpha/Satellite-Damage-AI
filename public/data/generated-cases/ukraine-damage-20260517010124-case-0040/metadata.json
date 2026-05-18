@@ -1,0 +1,50 @@
+{
+  "id": "ukraine-damage-20260517010124-case-0040",
+  "title": "Ukraine damage case 0040",
+  "label": "Moderate Damage",
+  "location": "Mariupol, Ukraine",
+  "lat": 47.1007696840675,
+  "lon": 37.60095059160044,
+  "bbox": [
+    37.59435226178288,
+    47.096278128192544,
+    37.607548921417994,
+    47.10526123994246
+  ],
+  "beforeDate": "2021-06-09",
+  "afterDate": "2026-04-30",
+  "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0040/before.webp",
+  "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0040/after.webp",
+  "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+  "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+  "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+  "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+  "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+  "generatedAt": "2026-05-17T01:02:59.206Z",
+  "bboxSizeMeters": 1000,
+  "properties": {
+    "originalFeatureProperties": {
+      "unosat_id": 13644,
+      "date": "2022-04-25T00:00:00Z",
+      "damage": 2,
+      "layer": "Azovstal_25April2022_CDA",
+      "gdb": "CE20220223UKR_UNOSAT_Damage",
+      "city": "Mariupol",
+      "country": "Ukraine",
+      "ep": 1,
+      "prev_date": null,
+      "prev_damage": -99,
+      "aoi": "UKR1"
+    },
+    "normalized": {
+      "damageField": "damage",
+      "damageLabel": "Moderate Damage",
+      "objectId": "13644",
+      "locationName": "Mariupol, Ukraine",
+      "imageryDate": "2022-04-25T00:00:00Z",
+      "confidence": null,
+      "notes": null,
+      "warnings": []
+    }
+  }
+}

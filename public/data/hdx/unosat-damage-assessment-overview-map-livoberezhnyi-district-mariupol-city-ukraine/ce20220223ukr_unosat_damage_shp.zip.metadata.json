@@ -1,0 +1,15 @@
+{
+  "dataset": {
+    "id": "3bd0cee0-a75f-4e1a-9b25-ba9aa89c45e1",
+    "name": "unosat-damage-assessment-overview-map-livoberezhnyi-district-mariupol-city-ukraine",
+    "title": "UNOSAT Damage Assessment Overview Map - Livoberezhnyi and Zhovtnevyi Districts, Mariupol City, Ukraine"
+  },
+  "resource": {
+    "id": "555fa632-def3-4463-bcc3-59189876363f",
+    "name": "CE20220223UKR_UNOSAT_Damage_shp.zip",
+    "format": "SHP",
+    "url": "https://unosat-maps.web.cern.ch/UA/CE20220223UKR/CE20220223UKR_UNOSAT_Damage_shp.zip"
+  },
+  "importedAt": "2026-05-15T20:11:37.026Z",
+  "featureCount": 5495
+}

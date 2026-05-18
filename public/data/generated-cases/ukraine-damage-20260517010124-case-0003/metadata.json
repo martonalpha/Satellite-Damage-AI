@@ -1,0 +1,50 @@
+{
+  "id": "ukraine-damage-20260517010124-case-0003",
+  "title": "Ukraine damage case 0003",
+  "label": "Moderate Damage",
+  "location": "Volnovakha, Ukraine",
+  "lat": 47.59361690199847,
+  "lon": 37.505318832298315,
+  "bbox": [
+    37.49865860380277,
+    47.58912534612352,
+    37.51197906079386,
+    47.59810845787343
+  ],
+  "beforeDate": "2021-06-09",
+  "afterDate": "2026-04-30",
+  "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0003/before.webp",
+  "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0003/after.webp",
+  "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+  "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+  "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+  "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+  "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+  "generatedAt": "2026-05-17T01:01:30.245Z",
+  "bboxSizeMeters": 1000,
+  "properties": {
+    "originalFeatureProperties": {
+      "unosat_id": 18827,
+      "date": "2022-05-30T00:00:00Z",
+      "damage": 2,
+      "layer": "Volnovakha_CDA_20220530",
+      "gdb": "UNOSAT_CE20220223UKR_Volnovakha_CDA_20220426",
+      "city": "Volnovakha",
+      "country": "Ukraine",
+      "ep": 1,
+      "prev_date": null,
+      "prev_damage": -99,
+      "aoi": "UKR4"
+    },
+    "normalized": {
+      "damageField": "damage",
+      "damageLabel": "Moderate Damage",
+      "objectId": "18827",
+      "locationName": "Volnovakha, Ukraine",
+      "imageryDate": "2022-05-30T00:00:00Z",
+      "confidence": null,
+      "notes": null,
+      "warnings": []
+    }
+  }
+}

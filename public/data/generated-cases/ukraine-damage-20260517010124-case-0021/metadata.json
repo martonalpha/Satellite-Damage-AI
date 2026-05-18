@@ -1,0 +1,50 @@
+{
+  "id": "ukraine-damage-20260517010124-case-0021",
+  "title": "Ukraine damage case 0021",
+  "label": "Moderate Damage",
+  "location": "Makariv, Ukraine",
+  "lat": 50.46191882478197,
+  "lon": 29.833552111439158,
+  "bbox": [
+    29.8264964723518,
+    50.45742726890701,
+    29.840607750526516,
+    50.466410380656924
+  ],
+  "beforeDate": "2021-06-09",
+  "afterDate": "2026-04-30",
+  "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0021/before.webp",
+  "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0021/after.webp",
+  "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+  "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+  "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+  "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+  "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+  "generatedAt": "2026-05-17T01:02:15.410Z",
+  "bboxSizeMeters": 1000,
+  "properties": {
+    "originalFeatureProperties": {
+      "unosat_id": 15085,
+      "date": "2022-03-16T00:00:00Z",
+      "damage": 2,
+      "layer": "Makariv_CDA_20220316",
+      "gdb": "CE20220223UKR_UNOSAT_Damage",
+      "city": "Makariv",
+      "country": "Ukraine",
+      "ep": 1,
+      "prev_date": null,
+      "prev_damage": -99,
+      "aoi": "UKR9"
+    },
+    "normalized": {
+      "damageField": "damage",
+      "damageLabel": "Moderate Damage",
+      "objectId": "15085",
+      "locationName": "Makariv, Ukraine",
+      "imageryDate": "2022-03-16T00:00:00Z",
+      "confidence": null,
+      "notes": null,
+      "warnings": []
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ukraine-damage-20260517010124-case-0044",
+  "title": "Ukraine damage case 0044",
+  "label": "Moderate Damage",
+  "location": "Mariupol, Ukraine",
+  "lat": 47.09909877001771,
+  "lon": 37.66718836135177,
+  "bbox": [
+    37.66059023860635,
+    47.094607214142755,
+    37.673786484097185,
+    47.10359032589267
+  ],
+  "beforeDate": "2021-06-09",
+  "afterDate": "2026-04-30",
+  "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0044/before.webp",
+  "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0044/after.webp",
+  "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+  "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+  "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+  "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+  "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+  "generatedAt": "2026-05-17T01:03:10.047Z",
+  "bboxSizeMeters": 1000,
+  "properties": {
+    "originalFeatureProperties": {
+      "unosat_id": 5811,
+      "date": "2022-05-07T00:00:00Z",
+      "damage": 2,
+      "layer": "UNOSAT_Mariupol_Livoberezhyny_DA_12May2022",
+      "gdb": "UNOSAT_LivoberezhnyiDistrict_DA_12May2022",
+      "city": "Mariupol",
+      "country": "Ukraine",
+      "ep": 2,
+      "prev_date": "2022-03-14T00:00:00Z",
+      "prev_damage": 2,
+      "aoi": "UKR1"
+    },
+    "normalized": {
+      "damageField": "damage",
+      "damageLabel": "Moderate Damage",
+      "objectId": "5811",
+      "locationName": "Mariupol, Ukraine",
+      "imageryDate": "2022-05-07T00:00:00Z",
+      "confidence": null,
+      "notes": null,
+      "warnings": []
+    }
+  }
+}

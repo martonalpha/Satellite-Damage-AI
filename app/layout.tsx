@@ -1,16 +1,13 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { cookies } from "next/headers";
 import Script from "next/script";
+import { Suspense } from "react";
 
 import { AppNavbar } from "@/components/app-navbar";
 import { AppThemeProvider } from "@/components/app-theme-provider";
 import {
-  APP_THEME_COOKIE_KEY,
   APP_THEME_DEFAULT,
-  APP_THEME_EXPLICIT_COOKIE_KEY,
   getAppThemeInitScript,
-  isAppTheme,
   type AppTheme,
 } from "@/lib/appTheme";
 
@@ -36,11 +33,7 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const cookieStore = await cookies();
-  const explicitTheme = cookieStore.get(APP_THEME_EXPLICIT_COOKIE_KEY)?.value === "1";
-  const cookieTheme = cookieStore.get(APP_THEME_COOKIE_KEY)?.value;
-  const initialTheme: AppTheme =
-    explicitTheme && isAppTheme(cookieTheme) ? cookieTheme : APP_THEME_DEFAULT;
+  const initialTheme: AppTheme = APP_THEME_DEFAULT;
 
   return (
     <html
@@ -52,7 +45,9 @@ export default async function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <AppThemeProvider initialTheme={initialTheme}>
-          <AppNavbar />
+          <Suspense fallback={null}>
+            <AppNavbar />
+          </Suspense>
           {children}
         </AppThemeProvider>
         <Script

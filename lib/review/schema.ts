@@ -8,6 +8,13 @@ export const DamageVerdictSchema = z.enum([
   "INSUFFICIENT_EVIDENCE",
 ]);
 
+export const TargetStatusSchema = z.enum([
+  "destroyed",
+  "partially_active",
+  "active",
+  "unknown",
+]);
+
 export const ConfidenceSchema = z.enum(["HIGH", "MEDIUM", "LOW"]);
 
 export const DamageTypeSchema = z.enum([
@@ -35,17 +42,28 @@ export const DamageZoneSchema = z.object({
   notes: z.array(z.string()),
 });
 
+export const AffectedObjectSchema = z.object({
+  name: z.string(),
+  damage_percent: z.number().min(0).max(100),
+  status: z.enum(["destroyed", "heavily_damaged", "partially_damaged", "intact", "unknown"]),
+  notes: z.string().nullable(),
+});
+
 export const SatelliteAnalysisResultSchema = z.object({
   schema_version: z.literal("2.0"),
   analysis_timestamp: z.string(),
   event_type: z.string(),
+  target_status: TargetStatusSchema,
+  recommended_action: z.string(),
   damage_assessment: z.object({
     overall_verdict: DamageVerdictSchema,
     confidence: ConfidenceSchema,
+    confidence_score: z.number().min(0).max(100),
     confidence_reason: z.string(),
     estimated_affected_area: z.string().nullable(),
     damage_severity_score: z.number().min(0).max(100),
   }),
+  affected_objects: z.array(AffectedObjectSchema),
   damage_zones: z.array(DamageZoneSchema),
   change_indicators: z.object({
     structural_changes: z.array(z.string()),
@@ -73,7 +91,9 @@ export const SatelliteAnalysisResultSchema = z.object({
 
 export type SatelliteAnalysisResult = z.infer<typeof SatelliteAnalysisResultSchema>;
 export type DamageZone = z.infer<typeof DamageZoneSchema>;
+export type AffectedObject = z.infer<typeof AffectedObjectSchema>;
 export type DamageVerdict = z.infer<typeof DamageVerdictSchema>;
+export type TargetStatus = z.infer<typeof TargetStatusSchema>;
 
 // kept for image-metadata.ts compatibility
 export type ReviewInputFile = {

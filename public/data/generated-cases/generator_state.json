@@ -1,0 +1,8 @@
+{
+  "cursors": {
+    "/data/zenodo/ukraine-damage/unosat_labels.geojson::custom:4::destroyed|destroyed::1000": 170,
+    "/data/zenodo/ukraine-damage/unosat_labels.geojson::custom:3::severely damaged|severely damaged|severely damaged::1000": 46,
+    "/data/zenodo/ukraine-damage/unosat_labels.geojson::custom:2::moderate damage|moderate damage::1000": 6,
+    "/data/zenodo/ukraine-damage/unosat_labels.geojson::custom:1::possible damage|possible damage::1000": 22
+  }
+}

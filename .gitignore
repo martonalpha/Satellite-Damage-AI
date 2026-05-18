@@ -14,6 +14,9 @@
 /coverage
 /.test-dist
 
+# generated/imported local datasets
+public/data/hdx/**/*.geojson
+
 # next.js
 /.next/
 /out/
@@ -28,6 +31,7 @@
 # misc
 .DS_Store
 *.pem
+~$*
 .claude/
 .idea/
 .vscode/
@@ -39,8 +43,10 @@ yarn-error.log*
 .pnpm-debug.log*
 debug.log
 
-# env files (can opt-in for committing if needed)
-.env*
+# env files
+.env.local
+.env*.local
+.env
 
 # vercel
 .vercel

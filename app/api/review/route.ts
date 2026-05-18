@@ -9,8 +9,15 @@ export async function POST(request: Request) {
 
     const beforeEntry = formData.get("before");
     const afterEntry = formData.get("after");
+    const beforeContextEntry = formData.get("beforeContext");
+    const afterContextEntry = formData.get("afterContext");
+    const changeMapEntry = formData.get("changeMap");
+    const beforeDate = getOptionalString(formData, "beforeDate");
+    const afterDate = getOptionalString(formData, "afterDate");
     const locationHint = getOptionalString(formData, "locationHint");
     const eventTypeHint = getOptionalString(formData, "eventTypeHint");
+    const analysisFocus = getOptionalString(formData, "analysisFocus");
+    const includeEnhancedAfter = getOptionalString(formData, "includeEnhancedAfter");
 
     if (!isFile(beforeEntry) || !isFile(afterEntry)) {
       return Response.json(
@@ -36,12 +43,52 @@ export async function POST(request: Request) {
       createdAt: null,
       updatedAt: null,
     };
+    const beforeContextFile: ReviewInputFile | undefined = isFile(beforeContextEntry)
+      ? {
+          file: beforeContextEntry,
+          role: "other",
+          clientId: "beforeContext",
+          filePath: null,
+          createdAt: null,
+          updatedAt: null,
+        }
+      : undefined;
+    const afterContextFile: ReviewInputFile | undefined = isFile(afterContextEntry)
+      ? {
+          file: afterContextEntry,
+          role: "other",
+          clientId: "afterContext",
+          filePath: null,
+          createdAt: null,
+          updatedAt: null,
+        }
+      : undefined;
+    const changeMapFile: ReviewInputFile | undefined = isFile(changeMapEntry)
+      ? {
+          file: changeMapEntry,
+          role: "other",
+          clientId: "changeMap",
+          filePath: null,
+          createdAt: null,
+          updatedAt: null,
+        }
+      : undefined;
 
     const result = await runSatelliteAnalysis({
       beforeFile,
       afterFile,
+      beforeContextFile,
+      afterContextFile,
+      changeMapFile,
+      beforeDate: beforeDate ?? undefined,
+      afterDate: afterDate ?? undefined,
       locationHint: locationHint ?? undefined,
       eventTypeHint: eventTypeHint ?? undefined,
+      analysisFocus:
+        analysisFocus === "target_crop_with_context" || analysisFocus === "target_crop"
+          ? analysisFocus
+          : "full_frame",
+      includeEnhancedAfter: includeEnhancedAfter !== "false",
     });
 
     return Response.json(result);

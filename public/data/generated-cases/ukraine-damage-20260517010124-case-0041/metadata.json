@@ -1,0 +1,50 @@
+{
+  "id": "ukraine-damage-20260517010124-case-0041",
+  "title": "Ukraine damage case 0041",
+  "label": "Moderate Damage",
+  "location": "Avdiivka, Ukraine",
+  "lat": 48.16404364515064,
+  "lon": 37.71107422864408,
+  "bbox": [
+    37.70434026350599,
+    48.159552089275685,
+    37.71780819378217,
+    48.1685352010256
+  ],
+  "beforeDate": "2021-06-09",
+  "afterDate": "2026-04-30",
+  "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0041/before.webp",
+  "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0041/after.webp",
+  "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+  "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+  "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+  "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+  "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+  "generatedAt": "2026-05-17T01:03:01.920Z",
+  "bboxSizeMeters": 1000,
+  "properties": {
+    "originalFeatureProperties": {
+      "unosat_id": 20021,
+      "date": "2022-09-20T00:00:00Z",
+      "damage": 2,
+      "layer": "damage_assessment",
+      "gdb": "Avdiivka_CDA20220920",
+      "city": "Avdiivka",
+      "country": "Ukraine",
+      "ep": 1,
+      "prev_date": null,
+      "prev_damage": -99,
+      "aoi": "UKR5"
+    },
+    "normalized": {
+      "damageField": "damage",
+      "damageLabel": "Moderate Damage",
+      "objectId": "20021",
+      "locationName": "Avdiivka, Ukraine",
+      "imageryDate": "2022-09-20T00:00:00Z",
+      "confidence": null,
+      "notes": null,
+      "warnings": []
+    }
+  }
+}

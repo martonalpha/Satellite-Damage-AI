@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "ukraine-damage-20260517010124-case-0001",
+    "title": "Ukraine damage case 0001",
+    "label": "Moderate Damage",
+    "location": "Rubizhne, Ukraine",
+    "lat": 49.00902920600004,
+    "lon": 38.388205576000075,
+    "bbox": [
+      38.38135806665208,
+      49.00453765012508,
+      38.39505308534807,
+      49.01352076187499
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0001/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0001/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:26.970Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 17232,
+        "date": "2022-07-09T00:00:00Z",
+        "damage": 2,
+        "layer": "Rubizhne_CDA_20220709",
+        "gdb": "UNOSAT_CE20220223UKR_Rubizhne_CDA_20220709",
+        "city": "Rubizhne",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR3"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "17232",
+        "locationName": "Rubizhne, Ukraine",
+        "imageryDate": "2022-07-09T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0002",
+    "title": "Ukraine damage case 0002",
+    "label": "Moderate Damage",
+    "location": "Ukraine damage verification area",
+    "lat": 47.09167326308764,
+    "lon": 37.53280637403401,
+    "bbox": [
+      37.526209171287796,
+      47.087181707212686,
+      37.539403576780224,
+      47.0961648189626
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0002/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0002/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:28.649Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 8003,
+        "date": "2022-05-12T00:00:00Z",
+        "damage": 2,
+        "layer": "UNOSAT_Mariupol_Livoberezhyny_DA_12May2022",
+        "gdb": "UNOSAT_LivoberezhnyiDistrict_DA_12May2022",
+        "city": null,
+        "country": "Ukraine",
+        "ep": 2,
+        "prev_date": "2022-03-14T00:00:00Z",
+        "prev_damage": 6,
+        "aoi": "UKR1"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "8003",
+        "locationName": null,
+        "imageryDate": "2022-05-12T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0003",
+    "title": "Ukraine damage case 0003",
+    "label": "Moderate Damage",
+    "location": "Volnovakha, Ukraine",
+    "lat": 47.59361690199847,
+    "lon": 37.505318832298315,
+    "bbox": [
+      37.49865860380277,
+      47.58912534612352,
+      37.51197906079386,
+      47.59810845787343
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0003/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0003/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:30.245Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 18827,
+        "date": "2022-05-30T00:00:00Z",
+        "damage": 2,
+        "layer": "Volnovakha_CDA_20220530",
+        "gdb": "UNOSAT_CE20220223UKR_Volnovakha_CDA_20220426",
+        "city": "Volnovakha",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR4"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "18827",
+        "locationName": "Volnovakha, Ukraine",
+        "imageryDate": "2022-05-30T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0004",
+    "title": "Ukraine damage case 0004",
+    "label": "Moderate Damage",
+    "location": "Lysychansk, Ukraine",
+    "lat": 48.9380748881168,
+    "lon": 38.39797081301671,
+    "bbox": [
+      38.39113304261621,
+      48.933583332241845,
+      38.404808583417214,
+      48.94256644399176
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0004/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0004/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:32.278Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 20929,
+        "date": "2022-09-21T00:00:00Z",
+        "damage": 2,
+        "layer": "Lysychansk_CDA_20220921",
+        "gdb": "Lysychansk_CDA_20220921",
+        "city": "Lysychansk",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR3"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "20929",
+        "locationName": "Lysychansk, Ukraine",
+        "imageryDate": "2022-09-21T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0005",
+    "title": "Ukraine damage case 0005",
+    "label": "Moderate Damage",
+    "location": "Avdiivka, Ukraine",
+    "lat": 48.138502483688285,
+    "lon": 37.75117213484354,
+    "bbox": [
+      37.74444152051637,
+      48.13401092781333,
+      37.75790274917072,
+      48.14299403956324
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0005/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0005/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:35.591Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 20259,
+        "date": "2022-09-20T00:00:00Z",
+        "damage": 2,
+        "layer": "damage_assessment",
+        "gdb": "Avdiivka_CDA20220920",
+        "city": "Avdiivka",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR5"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "20259",
+        "locationName": "Avdiivka, Ukraine",
+        "imageryDate": "2022-09-20T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0006",
+    "title": "Ukraine damage case 0006",
+    "label": "Moderate Damage",
+    "location": "Chernihiv, Ukraine",
+    "lat": 51.523752360131354,
+    "lon": 31.253655470459865,
+    "bbox": [
+      31.246436526391676,
+      51.5192608042564,
+      31.260874414528054,
+      51.52824391600631
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0006/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0006/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:37.507Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 14316,
+        "date": "2022-04-28T00:00:00Z",
+        "damage": 2,
+        "layer": "Chernihiv_28April2022_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Chernihiv",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR6"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "14316",
+        "locationName": "Chernihiv, Ukraine",
+        "imageryDate": "2022-04-28T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0007",
+    "title": "Ukraine damage case 0007",
+    "label": "Moderate Damage",
+    "location": "Kherson, Ukraine",
+    "lat": 46.62514681543098,
+    "lon": 32.572196808136084,
+    "bbox": [
+      32.56565667777739,
+      46.620655259556024,
+      32.57873693849478,
+      46.62963837130594
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0007/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0007/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:40.079Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 19807,
+        "date": "2022-10-14T00:00:00Z",
+        "damage": 2,
+        "layer": "damage_assessment",
+        "gdb": "Kherson_CDA_20221014",
+        "city": "Kherson",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR16"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "19807",
+        "locationName": "Kherson, Ukraine",
+        "imageryDate": "2022-10-14T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0008",
+    "title": "Ukraine damage case 0008",
+    "label": "Moderate Damage",
+    "location": "Mariupol, Ukraine",
+    "lat": 47.12917790708734,
+    "lon": 37.674466262950375,
+    "bbox": [
+      37.667864409724174,
+      47.12468635121238,
+      37.681068116176576,
+      47.133669462962295
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0008/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0008/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:41.804Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 5953,
+        "date": "2022-05-07T00:00:00Z",
+        "damage": 2,
+        "layer": "UNOSAT_Mariupol_Livoberezhyny_DA_12May2022",
+        "gdb": "UNOSAT_LivoberezhnyiDistrict_DA_12May2022",
+        "city": "Mariupol",
+        "country": "Ukraine",
+        "ep": 2,
+        "prev_date": "2022-03-14T00:00:00Z",
+        "prev_damage": 2,
+        "aoi": "UKR1"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "5953",
+        "locationName": "Mariupol, Ukraine",
+        "imageryDate": "2022-05-07T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0009",
+    "title": "Ukraine damage case 0009",
+    "label": "Moderate Damage",
+    "location": "Sievierodonetsk, Ukraine",
+    "lat": 48.97871575197259,
+    "lon": 38.48644608836889,
+    "bbox": [
+      38.479602744418536,
+      48.97422419609763,
+      38.49328943231925,
+      48.98320730784754
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0009/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0009/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:44.542Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 23159,
+        "date": "2022-07-25T00:00:00Z",
+        "damage": 2,
+        "layer": "Sievierodonetsk_CDA_20220725",
+        "gdb": "Sievierodonetsk_CDA_20220725",
+        "city": "Sievierodonetsk",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR3"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "23159",
+        "locationName": "Sievierodonetsk, Ukraine",
+        "imageryDate": "2022-07-25T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0010",
+    "title": "Ukraine damage case 0010",
+    "label": "Moderate Damage",
+    "location": "Hostomel, Ukraine",
+    "lat": 50.55275291086882,
+    "lon": 30.27590038440644,
+    "bbox": [
+      30.268831159387712,
+      50.54826135499386,
+      30.28296960942517,
+      50.557244466743775
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0010/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0010/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:47.734Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 13007,
+        "date": "2022-03-31T00:00:00Z",
+        "damage": 2,
+        "layer": "Hostomel_31March2022_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Hostomel",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR2"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "13007",
+        "locationName": "Hostomel, Ukraine",
+        "imageryDate": "2022-03-31T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0011",
+    "title": "Ukraine damage case 0011",
+    "label": "Moderate Damage",
+    "location": "Irpin, Ukraine",
+    "lat": 50.54272719241288,
+    "lon": 30.26001847022051,
+    "bbox": [
+      30.252950748175657,
+      50.53823563653793,
+      30.26708619226536,
+      50.54721874828784
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0011/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0011/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:51.057Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 11397,
+        "date": "2022-03-31T00:00:00Z",
+        "damage": 2,
+        "layer": "Irpin_31March2022_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Irpin",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR2"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "11397",
+        "locationName": "Irpin, Ukraine",
+        "imageryDate": "2022-03-31T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0012",
+    "title": "Ukraine damage case 0012",
+    "label": "Moderate Damage",
+    "location": "Borodyanka, Ukraine",
+    "lat": 50.64607680503201,
+    "lon": 29.939968147980327,
+    "bbox": [
+      29.932884891455803,
+      50.64158524915705,
+      29.94705140450485,
+      50.650568360906966
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0012/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0012/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:54.178Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 13791,
+        "date": "2022-05-02T00:00:00Z",
+        "damage": 2,
+        "layer": "Borodyanka_CDA_20220502",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Borodyanka",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR8"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "13791",
+        "locationName": "Borodyanka, Ukraine",
+        "imageryDate": "2022-05-02T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0013",
+    "title": "Ukraine damage case 0013",
+    "label": "Moderate Damage",
+    "location": "Kharkiv, Ukraine",
+    "lat": 50.04236167872176,
+    "lon": 36.34941109831684,
+    "bbox": [
+      36.34241731352033,
+      50.037870122846805,
+      36.356404883113356,
+      50.04685323459672
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0013/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0013/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:56.789Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 24385,
+        "date": "2022-06-15T00:00:00Z",
+        "damage": 2,
+        "layer": "Kharkiv_CDA_20220615_Final",
+        "gdb": "Kharkiv_CDA_20220615",
+        "city": "Kharkiv",
+        "country": "Ukraine",
+        "ep": 2,
+        "prev_date": "2022-04-24T00:00:00Z",
+        "prev_damage": 2,
+        "aoi": "UKR7"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "24385",
+        "locationName": "Kharkiv, Ukraine",
+        "imageryDate": "2022-06-15T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0014",
+    "title": "Ukraine damage case 0014",
+    "label": "Moderate Damage",
+    "location": "Trostianets, Ukraine",
+    "lat": 50.48679465614777,
+    "lon": 34.937893790967706,
+    "bbox": [
+      34.93083443819454,
+      50.482303100272816,
+      34.944953143740875,
+      50.49128621202273
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0014/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0014/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:01:58.679Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 15383,
+        "date": "2022-03-25T00:00:00Z",
+        "damage": 2,
+        "layer": "Trostianets_Okhtyrka_CDA_20220325",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Trostianets",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR13"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "15383",
+        "locationName": "Trostianets, Ukraine",
+        "imageryDate": "2022-03-25T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0015",
+    "title": "Ukraine damage case 0015",
+    "label": "Moderate Damage",
+    "location": "Mykolaiv, Ukraine",
+    "lat": 46.954044136193495,
+    "lon": 31.90666165007841,
+    "bbox": [
+      31.900081432891145,
+      46.94955258031854,
+      31.913241867265672,
+      46.95853569206845
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0015/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0015/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:00.150Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 15291,
+        "date": "2022-07-21T00:00:00Z",
+        "damage": 2,
+        "layer": "Mykolaiv_CDA_20220721",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Mykolaiv",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR10"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "15291",
+        "locationName": "Mykolaiv, Ukraine",
+        "imageryDate": "2022-07-21T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0016",
+    "title": "Ukraine damage case 0016",
+    "label": "Moderate Damage",
+    "location": "Moschun, Ukraine",
+    "lat": 50.603328790000035,
+    "lon": 30.308701859000053,
+    "bbox": [
+      30.301625038995812,
+      50.59883723412508,
+      30.315778679004293,
+      50.60782034587499
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0016/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0016/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:02.330Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 19355,
+        "date": "2022-03-31T00:00:00Z",
+        "damage": 2,
+        "layer": "Moschun_CDA_20220331",
+        "gdb": "UNOSAT_CE20220223UKR_Moschun_CDA_20220331",
+        "city": "Moschun",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR2"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "19355",
+        "locationName": "Moschun, Ukraine",
+        "imageryDate": "2022-03-31T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0017",
+    "title": "Ukraine damage case 0017",
+    "label": "Moderate Damage",
+    "location": "Antonivka, Ukraine",
+    "lat": 46.67756365317424,
+    "lon": 32.72424592980727,
+    "bbox": [
+      32.71769945793235,
+      46.67307209729928,
+      32.73079240168219,
+      46.682055209049196
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0017/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0017/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:05.141Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 19750,
+        "date": "2022-10-14T00:00:00Z",
+        "damage": 2,
+        "layer": "damage_assessment",
+        "gdb": "Antonivka_CDA_20221014",
+        "city": "Antonivka",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR16"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "19750",
+        "locationName": "Antonivka, Ukraine",
+        "imageryDate": "2022-10-14T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0018",
+    "title": "Ukraine damage case 0018",
+    "label": "Moderate Damage",
+    "location": "Kramatorsk, Ukraine",
+    "lat": 48.72375465616793,
+    "lon": 37.54772591766619,
+    "bbox": [
+      37.54091733344373,
+      48.71926310029297,
+      37.554534501888654,
+      48.72824621204288
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0018/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0018/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:07.513Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 15424,
+        "date": "2022-07-24T00:00:00Z",
+        "damage": 2,
+        "layer": "Kramatorsk_CDA_20220724",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Kramatorsk",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR14"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "15424",
+        "locationName": "Kramatorsk, Ukraine",
+        "imageryDate": "2022-07-24T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0019",
+    "title": "Ukraine damage case 0019",
+    "label": "Moderate Damage",
+    "location": "Sumy, Ukraine",
+    "lat": 50.88058966107248,
+    "lon": 34.78744097825136,
+    "bbox": [
+      34.78032213129047,
+      50.87609810519752,
+      34.794559825212254,
+      50.885081216947434
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0019/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0019/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:10.342Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 15341,
+        "date": "2022-07-08T00:00:00Z",
+        "damage": 2,
+        "layer": "Sumy_CDA_20220708",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Sumy",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR12"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "15341",
+        "locationName": "Sumy, Ukraine",
+        "imageryDate": "2022-07-08T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0020",
+    "title": "Ukraine damage case 0020",
+    "label": "Moderate Damage",
+    "location": "Bucha, Ukraine",
+    "lat": 50.545520275800165,
+    "lon": 30.218823447971303,
+    "bbox": [
+      30.211755307296162,
+      50.54102871992521,
+      30.225891588646444,
+      50.55001183167512
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0020/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0020/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:12.614Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 11288,
+        "date": "2022-03-31T00:00:00Z",
+        "damage": 2,
+        "layer": "Bucha_31March2022_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Bucha",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR2"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "11288",
+        "locationName": "Bucha, Ukraine",
+        "imageryDate": "2022-03-31T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0021",
+    "title": "Ukraine damage case 0021",
+    "label": "Moderate Damage",
+    "location": "Makariv, Ukraine",
+    "lat": 50.46191882478197,
+    "lon": 29.833552111439158,
+    "bbox": [
+      29.8264964723518,
+      50.45742726890701,
+      29.840607750526516,
+      50.466410380656924
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0021/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0021/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:15.410Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 15085,
+        "date": "2022-03-16T00:00:00Z",
+        "damage": 2,
+        "layer": "Makariv_CDA_20220316",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Makariv",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR9"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "15085",
+        "locationName": "Makariv, Ukraine",
+        "imageryDate": "2022-03-16T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0022",
+    "title": "Ukraine damage case 0022",
+    "label": "Moderate Damage",
+    "location": "Shchastia, Ukraine",
+    "lat": 48.73951572923499,
+    "lon": 39.22219475660615,
+    "bbox": [
+      39.215384037769915,
+      48.73502417336003,
+      39.229005475442385,
+      48.744007285109944
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0022/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0022/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:18.219Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 15298,
+        "date": "2022-07-07T00:00:00Z",
+        "damage": 2,
+        "layer": "Shchastia_CDA_20220707",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Shchastia",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR11"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "15298",
+        "locationName": "Shchastia, Ukraine",
+        "imageryDate": "2022-07-07T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0023",
+    "title": "Ukraine damage case 0023",
+    "label": "Moderate Damage",
+    "location": "Okhtyrka, Ukraine",
+    "lat": 50.31113996800008,
+    "lon": 34.93425642700004,
+    "bbox": [
+      34.92722318586752,
+      50.30664841212512,
+      34.941289668132555,
+      50.315631523875034
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0023/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0023/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:20.951Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 15489,
+        "date": "2022-03-25T00:00:00Z",
+        "damage": 2,
+        "layer": "Okhtyrka_CDA_20220325",
+        "gdb": "CE20220223UKR_UNOSAT_Okhtyrka_CDA_20220325",
+        "city": "Okhtyrka",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR15"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "15489",
+        "locationName": "Okhtyrka, Ukraine",
+        "imageryDate": "2022-03-25T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0024",
+    "title": "Ukraine damage case 0024",
+    "label": "Moderate Damage",
+    "location": "Melitopol, Ukraine",
+    "lat": 46.85156020749406,
+    "lon": 35.37715423629984,
+    "bbox": [
+      35.370586585943954,
+      46.847068651619104,
+      35.38372188665572,
+      46.85605176336902
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0024/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0024/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:23.719Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 19924,
+        "date": "2022-08-02T00:00:00Z",
+        "damage": 2,
+        "layer": "Damage_assessment",
+        "gdb": "Melitopol_CDA_20220802",
+        "city": "Melitopol",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR18"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "19924",
+        "locationName": "Melitopol, Ukraine",
+        "imageryDate": "2022-08-02T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0025",
+    "title": "Ukraine damage case 0025",
+    "label": "Moderate Damage",
+    "location": "Antonov Airport, Ukraine",
+    "lat": 50.58674228698063,
+    "lon": 30.21176698378519,
+    "bbox": [
+      30.20469265698331,
+      50.582250731105674,
+      30.21884131058707,
+      50.59123384285559
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0025/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0025/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:26.046Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 12647,
+        "date": "2022-03-31T00:00:00Z",
+        "damage": 2,
+        "layer": "Hostomel_31March2022_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Antonov Airport",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR2"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "12647",
+        "locationName": "Antonov Airport, Ukraine",
+        "imageryDate": "2022-03-31T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0026",
+    "title": "Ukraine damage case 0026",
+    "label": "Moderate Damage",
+    "location": "Kremenchuk, Ukraine",
+    "lat": 49.09667711649793,
+    "lon": 33.44356924892578,
+    "bbox": [
+      33.43670965640935,
+      49.09218556062297,
+      33.45042884144222,
+      49.101168672372886
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0026/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0026/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:28.671Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 19870,
+        "date": "2022-06-29T00:00:00Z",
+        "damage": 2,
+        "layer": "damage_assessment",
+        "gdb": "Kremenchuk_CDA_20220629",
+        "city": "Kremenchuk",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR17"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "19870",
+        "locationName": "Kremenchuk, Ukraine",
+        "imageryDate": "2022-06-29T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0027",
+    "title": "Ukraine damage case 0027",
+    "label": "Moderate Damage",
+    "location": "Vorzel, Ukraine",
+    "lat": 50.54324566205413,
+    "lon": 30.155887003058762,
+    "bbox": [
+      30.14881920331015,
+      50.53875410617918,
+      30.162954802807374,
+      50.54773721792909
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0027/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0027/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:31.207Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 13749,
+        "date": "2022-03-31T00:00:00Z",
+        "damage": 2,
+        "layer": "Vorzel_20220331_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Vorzel",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR2"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "13749",
+        "locationName": "Vorzel, Ukraine",
+        "imageryDate": "2022-03-31T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0028",
+    "title": "Ukraine damage case 0028",
+    "label": "Moderate Damage",
+    "location": "Ukraine damage verification area",
+    "lat": 47.111675654687104,
+    "lon": 37.63540309019408,
+    "bbox": [
+      37.62880340836999,
+      47.10718409881215,
+      37.642002772018174,
+      47.11616721056206
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0028/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0028/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:33.493Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 10206,
+        "date": "2022-05-08T00:00:00Z",
+        "damage": 2,
+        "layer": "UNOSAT_Mariupol_Livoberezhyny_DA_12May2022",
+        "gdb": "UNOSAT_LivoberezhnyiDistrict_DA_12May2022",
+        "city": null,
+        "country": "Ukraine",
+        "ep": 2,
+        "prev_date": "2022-03-14T00:00:00Z",
+        "prev_damage": 6,
+        "aoi": "UKR1"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "10206",
+        "locationName": null,
+        "imageryDate": "2022-05-08T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0029",
+    "title": "Ukraine damage case 0029",
+    "label": "Moderate Damage",
+    "location": "Rubizhne, Ukraine",
+    "lat": 48.98382937000008,
+    "lon": 38.434779313000035,
+    "bbox": [
+      38.42793526687273,
+      48.979337814125124,
+      38.44162335912734,
+      48.98832092587504
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0029/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0029/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:36.026Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 17875,
+        "date": "2022-07-09T00:00:00Z",
+        "damage": 2,
+        "layer": "Rubizhne_CDA_20220709",
+        "gdb": "UNOSAT_CE20220223UKR_Rubizhne_CDA_20220709",
+        "city": "Rubizhne",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR3"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "17875",
+        "locationName": "Rubizhne, Ukraine",
+        "imageryDate": "2022-07-09T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0030",
+    "title": "Ukraine damage case 0030",
+    "label": "Moderate Damage",
+    "location": "Lysychansk, Ukraine",
+    "lat": 48.86715031306952,
+    "lon": 38.4874876076857,
+    "bbox": [
+      38.480659534054254,
+      48.862658757194566,
+      38.49431568131715,
+      48.87164186894448
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0030/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0030/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:37.792Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 21095,
+        "date": "2022-09-21T00:00:00Z",
+        "damage": 2,
+        "layer": "Lysychansk_CDA_20220921",
+        "gdb": "Lysychansk_CDA_20220921",
+        "city": "Lysychansk",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR3"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "21095",
+        "locationName": "Lysychansk, Ukraine",
+        "imageryDate": "2022-09-21T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0031",
+    "title": "Ukraine damage case 0031",
+    "label": "Moderate Damage",
+    "location": "Kherson, Ukraine",
+    "lat": 46.63693756771393,
+    "lon": 32.60617247289206,
+    "bbox": [
+      32.59963091760793,
+      46.63244601183897,
+      32.61271402817619,
+      46.641429123588885
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0031/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0031/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:39.390Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 19798,
+        "date": "2022-10-14T00:00:00Z",
+        "damage": 2,
+        "layer": "damage_assessment",
+        "gdb": "Kherson_CDA_20221014",
+        "city": "Kherson",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR16"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "19798",
+        "locationName": "Kherson, Ukraine",
+        "imageryDate": "2022-10-14T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0032",
+    "title": "Ukraine damage case 0032",
+    "label": "Moderate Damage",
+    "location": "Chernihiv, Ukraine",
+    "lat": 51.52550709556651,
+    "lon": 31.359642679132154,
+    "bbox": [
+      31.352423456869104,
+      51.521015539691554,
+      31.366861901395204,
+      51.52999865144147
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0032/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0032/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:42.856Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 14284,
+        "date": "2022-04-28T00:00:00Z",
+        "damage": 2,
+        "layer": "Chernihiv_28April2022_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Chernihiv",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR6"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "14284",
+        "locationName": "Chernihiv, Ukraine",
+        "imageryDate": "2022-04-28T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0033",
+    "title": "Ukraine damage case 0033",
+    "label": "Moderate Damage",
+    "location": "Chernihiv, Ukraine",
+    "lat": 51.45716798864848,
+    "lon": 31.26847505944868,
+    "bbox": [
+      31.261266650822417,
+      51.45267643277352,
+      31.27568346807494,
+      51.461659544523435
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0033/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0033/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:44.900Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 14516,
+        "date": "2022-04-28T00:00:00Z",
+        "damage": 2,
+        "layer": "Chernihiv_28April2022_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Chernihiv",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR6"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "14516",
+        "locationName": "Chernihiv, Ukraine",
+        "imageryDate": "2022-04-28T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0034",
+    "title": "Ukraine damage case 0034",
+    "label": "Moderate Damage",
+    "location": "Chernihiv, Ukraine",
+    "lat": 51.53071788822173,
+    "lon": 31.307916377125476,
+    "bbox": [
+      31.300696328579715,
+      51.52622633234677,
+      31.315136425671238,
+      51.53520944409669
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0034/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0034/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:47.172Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 14071,
+        "date": "2022-04-28T00:00:00Z",
+        "damage": 2,
+        "layer": "Chernihiv_28April2022_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Chernihiv",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR6"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "14071",
+        "locationName": "Chernihiv, Ukraine",
+        "imageryDate": "2022-04-28T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0035",
+    "title": "Ukraine damage case 0035",
+    "label": "Moderate Damage",
+    "location": "Irpin, Ukraine",
+    "lat": 50.51226231464406,
+    "lon": 30.2273457569869,
+    "bbox": [
+      30.220282596742514,
+      50.507770758769105,
+      30.234408917231285,
+      50.51675387051902
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0035/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0035/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:49.002Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 12158,
+        "date": "2022-03-31T00:00:00Z",
+        "damage": 2,
+        "layer": "Irpin_31March2022_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Irpin",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR2"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "12158",
+        "locationName": "Irpin, Ukraine",
+        "imageryDate": "2022-03-31T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0036",
+    "title": "Ukraine damage case 0036",
+    "label": "Moderate Damage",
+    "location": "Rubizhne, Ukraine",
+    "lat": 48.98452581400005,
+    "lon": 38.39750996600003,
+    "bbox": [
+      38.39066582422508,
+      48.980034258125094,
+      38.40435410777498,
+      48.98901736987501
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0036/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0036/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:51.406Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 17974,
+        "date": "2022-07-09T00:00:00Z",
+        "damage": 2,
+        "layer": "Rubizhne_CDA_20220709",
+        "gdb": "UNOSAT_CE20220223UKR_Rubizhne_CDA_20220709",
+        "city": "Rubizhne",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR3"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "17974",
+        "locationName": "Rubizhne, Ukraine",
+        "imageryDate": "2022-07-09T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0037",
+    "title": "Ukraine damage case 0037",
+    "label": "Moderate Damage",
+    "location": "Rubizhne, Ukraine",
+    "lat": 49.02531787800007,
+    "lon": 38.359435646000065,
+    "bbox": [
+      38.35258589552434,
+      49.02082632212511,
+      38.36628539647579,
+      49.02980943387502
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0037/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0037/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:53.148Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 18162,
+        "date": "2022-07-09T00:00:00Z",
+        "damage": 2,
+        "layer": "Rubizhne_CDA_20220709",
+        "gdb": "UNOSAT_CE20220223UKR_Rubizhne_CDA_20220709",
+        "city": "Rubizhne",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR3"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "18162",
+        "locationName": "Rubizhne, Ukraine",
+        "imageryDate": "2022-07-09T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0038",
+    "title": "Ukraine damage case 0038",
+    "label": "Moderate Damage",
+    "location": "Lysychansk, Ukraine",
+    "lat": 48.909554933096786,
+    "lon": 38.440196034911835,
+    "bbox": [
+      38.43336216831171,
+      48.90506337722183,
+      38.44702990151196,
+      48.91404648897174
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0038/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0038/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:54.815Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 20810,
+        "date": "2022-09-21T00:00:00Z",
+        "damage": 2,
+        "layer": "Lysychansk_CDA_20220921",
+        "gdb": "Lysychansk_CDA_20220921",
+        "city": "Lysychansk",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR3"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "20810",
+        "locationName": "Lysychansk, Ukraine",
+        "imageryDate": "2022-09-21T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0039",
+    "title": "Ukraine damage case 0039",
+    "label": "Moderate Damage",
+    "location": "Volnovakha, Ukraine",
+    "lat": 47.59051454041378,
+    "lon": 37.46624771945676,
+    "bbox": [
+      37.45958788577726,
+      47.58602298453882,
+      37.47290755313626,
+      47.595006096288735
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0039/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0039/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:56.024Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 18884,
+        "date": "2022-05-30T00:00:00Z",
+        "damage": 2,
+        "layer": "Volnovakha_CDA_20220530",
+        "gdb": "UNOSAT_CE20220223UKR_Volnovakha_CDA_20220426",
+        "city": "Volnovakha",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR4"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "18884",
+        "locationName": "Volnovakha, Ukraine",
+        "imageryDate": "2022-05-30T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0040",
+    "title": "Ukraine damage case 0040",
+    "label": "Moderate Damage",
+    "location": "Mariupol, Ukraine",
+    "lat": 47.1007696840675,
+    "lon": 37.60095059160044,
+    "bbox": [
+      37.59435226178288,
+      47.096278128192544,
+      37.607548921417994,
+      47.10526123994246
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0040/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0040/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:02:59.206Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 13644,
+        "date": "2022-04-25T00:00:00Z",
+        "damage": 2,
+        "layer": "Azovstal_25April2022_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Mariupol",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR1"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "13644",
+        "locationName": "Mariupol, Ukraine",
+        "imageryDate": "2022-04-25T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0041",
+    "title": "Ukraine damage case 0041",
+    "label": "Moderate Damage",
+    "location": "Avdiivka, Ukraine",
+    "lat": 48.16404364515064,
+    "lon": 37.71107422864408,
+    "bbox": [
+      37.70434026350599,
+      48.159552089275685,
+      37.71780819378217,
+      48.1685352010256
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0041/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0041/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:03:01.920Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 20021,
+        "date": "2022-09-20T00:00:00Z",
+        "damage": 2,
+        "layer": "damage_assessment",
+        "gdb": "Avdiivka_CDA20220920",
+        "city": "Avdiivka",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR5"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "20021",
+        "locationName": "Avdiivka, Ukraine",
+        "imageryDate": "2022-09-20T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0042",
+    "title": "Ukraine damage case 0042",
+    "label": "Moderate Damage",
+    "location": "Sievierodonetsk, Ukraine",
+    "lat": 48.952596303113395,
+    "lon": 38.46197477988025,
+    "bbox": [
+      38.45513501942864,
+      48.94810474723844,
+      38.46881454033186,
+      48.95708785898835
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0042/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0042/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:03:04.820Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 22503,
+        "date": "2022-07-25T00:00:00Z",
+        "damage": 2,
+        "layer": "Sievierodonetsk_CDA_20220725",
+        "gdb": "Sievierodonetsk_CDA_20220725",
+        "city": "Sievierodonetsk",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR3"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "22503",
+        "locationName": "Sievierodonetsk, Ukraine",
+        "imageryDate": "2022-07-25T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0043",
+    "title": "Ukraine damage case 0043",
+    "label": "Moderate Damage",
+    "location": "Irpin, Ukraine",
+    "lat": 50.49069721036469,
+    "lon": 30.26187988728705,
+    "bbox": [
+      30.254819951430225,
+      50.48620565448973,
+      30.268939823143878,
+      50.49518876623964
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0043/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0043/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:03:07.551Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 12365,
+        "date": "2022-03-31T00:00:00Z",
+        "damage": 2,
+        "layer": "Irpin_31March2022_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Irpin",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR2"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "12365",
+        "locationName": "Irpin, Ukraine",
+        "imageryDate": "2022-03-31T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0044",
+    "title": "Ukraine damage case 0044",
+    "label": "Moderate Damage",
+    "location": "Mariupol, Ukraine",
+    "lat": 47.09909877001771,
+    "lon": 37.66718836135177,
+    "bbox": [
+      37.66059023860635,
+      47.094607214142755,
+      37.673786484097185,
+      47.10359032589267
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0044/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0044/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:03:10.047Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 5811,
+        "date": "2022-05-07T00:00:00Z",
+        "damage": 2,
+        "layer": "UNOSAT_Mariupol_Livoberezhyny_DA_12May2022",
+        "gdb": "UNOSAT_LivoberezhnyiDistrict_DA_12May2022",
+        "city": "Mariupol",
+        "country": "Ukraine",
+        "ep": 2,
+        "prev_date": "2022-03-14T00:00:00Z",
+        "prev_damage": 2,
+        "aoi": "UKR1"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "5811",
+        "locationName": "Mariupol, Ukraine",
+        "imageryDate": "2022-05-07T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0045",
+    "title": "Ukraine damage case 0045",
+    "label": "Moderate Damage",
+    "location": "Mykolaiv, Ukraine",
+    "lat": 46.95788390224557,
+    "lon": 31.979633376252444,
+    "bbox": [
+      31.9730526868794,
+      46.95339234637061,
+      31.98621406562549,
+      46.962375458120526
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0045/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0045/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:03:11.675Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 15203,
+        "date": "2022-07-21T00:00:00Z",
+        "damage": 2,
+        "layer": "Mykolaiv_CDA_20220721",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Mykolaiv",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR10"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "15203",
+        "locationName": "Mykolaiv, Ukraine",
+        "imageryDate": "2022-07-21T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0046",
+    "title": "Ukraine damage case 0046",
+    "label": "Moderate Damage",
+    "location": "Chernihiv, Ukraine",
+    "lat": 51.48336297548925,
+    "lon": 31.254027942519368,
+    "bbox": [
+      31.246815393973716,
+      51.47887141961429,
+      31.26124049106502,
+      51.487854531364206
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0046/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0046/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:03:14.127Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 14914,
+        "date": "2022-04-28T00:00:00Z",
+        "damage": 2,
+        "layer": "Chernihiv_28April2022_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Chernihiv",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR6"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "14914",
+        "locationName": "Chernihiv, Ukraine",
+        "imageryDate": "2022-04-28T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0047",
+    "title": "Ukraine damage case 0047",
+    "label": "Moderate Damage",
+    "location": "Kramatorsk, Ukraine",
+    "lat": 48.74942574915235,
+    "lon": 37.59264128032523,
+    "bbox": [
+      37.58582921836785,
+      48.744934193277395,
+      37.599453342282615,
+      48.75391730502731
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0047/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0047/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:03:17.793Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 15454,
+        "date": "2022-07-24T00:00:00Z",
+        "damage": 2,
+        "layer": "Kramatorsk_CDA_20220724",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Kramatorsk",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR14"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "15454",
+        "locationName": "Kramatorsk, Ukraine",
+        "imageryDate": "2022-07-24T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0048",
+    "title": "Ukraine damage case 0048",
+    "label": "Moderate Damage",
+    "location": "Sievierodonetsk, Ukraine",
+    "lat": 48.940327208441865,
+    "lon": 38.512816663540235,
+    "bbox": [
+      38.50597858458077,
+      48.93583565256691,
+      38.519654742499704,
+      48.94481876431682
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0048/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0048/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:03:19.782Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 23624,
+        "date": "2022-07-25T00:00:00Z",
+        "damage": 2,
+        "layer": "Sievierodonetsk_CDA_20220725",
+        "gdb": "Sievierodonetsk_CDA_20220725",
+        "city": "Sievierodonetsk",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR3"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "23624",
+        "locationName": "Sievierodonetsk, Ukraine",
+        "imageryDate": "2022-07-25T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0049",
+    "title": "Ukraine damage case 0049",
+    "label": "Moderate Damage",
+    "location": "Mykolaiv, Ukraine",
+    "lat": 46.98428825735111,
+    "lon": 31.947918490792237,
+    "bbox": [
+      31.941334551771348,
+      46.979796701476154,
+      31.954502429813125,
+      46.98877981322607
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0049/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0049/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:03:21.443Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 15281,
+        "date": "2022-07-21T00:00:00Z",
+        "damage": 2,
+        "layer": "Mykolaiv_CDA_20220721",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Mykolaiv",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR10"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "15281",
+        "locationName": "Mykolaiv, Ukraine",
+        "imageryDate": "2022-07-21T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "id": "ukraine-damage-20260517010124-case-0050",
+    "title": "Ukraine damage case 0050",
+    "label": "Moderate Damage",
+    "location": "Hostomel, Ukraine",
+    "lat": 50.584482795143686,
+    "lon": 30.251938117053342,
+    "bbox": [
+      30.244864129705448,
+      50.57999123926873,
+      30.259012104401236,
+      50.58897435101864
+    ],
+    "beforeDate": "2021-06-09",
+    "afterDate": "2026-04-30",
+    "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0050/before.webp",
+    "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0050/after.webp",
+    "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+    "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+    "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+    "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+    "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+    "generatedAt": "2026-05-17T01:03:23.948Z",
+    "bboxSizeMeters": 1000,
+    "properties": {
+      "originalFeatureProperties": {
+        "unosat_id": 12727,
+        "date": "2022-03-31T00:00:00Z",
+        "damage": 2,
+        "layer": "Hostomel_31March2022_CDA",
+        "gdb": "CE20220223UKR_UNOSAT_Damage",
+        "city": "Hostomel",
+        "country": "Ukraine",
+        "ep": 1,
+        "prev_date": null,
+        "prev_damage": -99,
+        "aoi": "UKR2"
+      },
+      "normalized": {
+        "damageField": "damage",
+        "damageLabel": "Moderate Damage",
+        "objectId": "12727",
+        "locationName": "Hostomel, Ukraine",
+        "imageryDate": "2022-03-31T00:00:00Z",
+        "confidence": null,
+        "notes": null,
+        "warnings": []
+      }
+    }
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "id": "ukraine-damage-20260517010124-case-0024",
+  "title": "Ukraine damage case 0024",
+  "label": "Moderate Damage",
+  "location": "Melitopol, Ukraine",
+  "lat": 46.85156020749406,
+  "lon": 35.37715423629984,
+  "bbox": [
+    35.370586585943954,
+    46.847068651619104,
+    35.38372188665572,
+    46.85605176336902
+  ],
+  "beforeDate": "2021-06-09",
+  "afterDate": "2026-04-30",
+  "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0024/before.webp",
+  "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0024/after.webp",
+  "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+  "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+  "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+  "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+  "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+  "generatedAt": "2026-05-17T01:02:23.719Z",
+  "bboxSizeMeters": 1000,
+  "properties": {
+    "originalFeatureProperties": {
+      "unosat_id": 19924,
+      "date": "2022-08-02T00:00:00Z",
+      "damage": 2,
+      "layer": "Damage_assessment",
+      "gdb": "Melitopol_CDA_20220802",
+      "city": "Melitopol",
+      "country": "Ukraine",
+      "ep": 1,
+      "prev_date": null,
+      "prev_damage": -99,
+      "aoi": "UKR18"
+    },
+    "normalized": {
+      "damageField": "damage",
+      "damageLabel": "Moderate Damage",
+      "objectId": "19924",
+      "locationName": "Melitopol, Ukraine",
+      "imageryDate": "2022-08-02T00:00:00Z",
+      "confidence": null,
+      "notes": null,
+      "warnings": []
+    }
+  }
+}

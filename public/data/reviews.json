@@ -1,0 +1,25 @@
+[
+  {
+    "id": "satellite-ukraine-damage-20260517010124-case-0050-validated-1778982148164",
+    "marker": {
+      "id": "satellite-ukraine-damage-20260517010124-case-0050",
+      "label": "Moderate Damage",
+      "locationInput": "Hostomel, Ukraine",
+      "lat": 50.584482795143686,
+      "lon": 30.251938117053342,
+      "status": "destroyed",
+      "eventType": "explosion",
+      "recommendedAction": "Target neutralized. No follow-up strike required.",
+      "confidenceScore": 90,
+      "severityScore": 85,
+      "summary": "The industrial warehouse in the red circle has been completely destroyed, with debris visible in the aftermath image.",
+      "createdAt": "2026-05-17T01:10:03.002Z",
+      "beforePreview": "/data/generated-cases/ukraine-damage-20260517010124-case-0050/before.webp",
+      "afterPreview": "/data/generated-cases/ukraine-damage-20260517010124-case-0050/after.webp",
+      "beforeDate": "2021-06-09",
+      "afterDate": "2026-04-30"
+    },
+    "decision": "validated",
+    "decidedAt": "2026-05-17T01:42:28.164Z"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "id": "ukraine-damage-20260517010124-case-0047",
+  "title": "Ukraine damage case 0047",
+  "label": "Moderate Damage",
+  "location": "Kramatorsk, Ukraine",
+  "lat": 48.74942574915235,
+  "lon": 37.59264128032523,
+  "bbox": [
+    37.58582921836785,
+    48.744934193277395,
+    37.599453342282615,
+    48.75391730502731
+  ],
+  "beforeDate": "2021-06-09",
+  "afterDate": "2026-04-30",
+  "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0047/before.webp",
+  "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0047/after.webp",
+  "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+  "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+  "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+  "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+  "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+  "generatedAt": "2026-05-17T01:03:17.793Z",
+  "bboxSizeMeters": 1000,
+  "properties": {
+    "originalFeatureProperties": {
+      "unosat_id": 15454,
+      "date": "2022-07-24T00:00:00Z",
+      "damage": 2,
+      "layer": "Kramatorsk_CDA_20220724",
+      "gdb": "CE20220223UKR_UNOSAT_Damage",
+      "city": "Kramatorsk",
+      "country": "Ukraine",
+      "ep": 1,
+      "prev_date": null,
+      "prev_damage": -99,
+      "aoi": "UKR14"
+    },
+    "normalized": {
+      "damageField": "damage",
+      "damageLabel": "Moderate Damage",
+      "objectId": "15454",
+      "locationName": "Kramatorsk, Ukraine",
+      "imageryDate": "2022-07-24T00:00:00Z",
+      "confidence": null,
+      "notes": null,
+      "warnings": []
+    }
+  }
+}

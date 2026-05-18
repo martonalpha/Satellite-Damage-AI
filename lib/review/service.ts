@@ -6,6 +6,7 @@ import {
   prepareReviewFile,
   type PreparedReviewedFile,
 } from "@/lib/review/image-metadata";
+import { enhanceForAnalysis } from "@/lib/review/preprocess";
 import {
   SATELLITE_ANALYSIS_INSTRUCTIONS,
   buildSatelliteAnalysisPrompt,
@@ -19,8 +20,15 @@ import {
 type RunAnalysisArgs = {
   beforeFile: ReviewInputFile;
   afterFile: ReviewInputFile;
+  beforeContextFile?: ReviewInputFile;
+  afterContextFile?: ReviewInputFile;
+  changeMapFile?: ReviewInputFile;
+  beforeDate?: string;
+  afterDate?: string;
   locationHint?: string;
   eventTypeHint?: string;
+  analysisFocus?: "full_frame" | "target_crop" | "target_crop_with_context";
+  includeEnhancedAfter?: boolean;
 };
 
 const SUPPORTED_IMAGE_TYPES = new Set([
@@ -34,16 +42,80 @@ const SUPPORTED_IMAGE_TYPES = new Set([
 export async function runSatelliteAnalysis({
   beforeFile,
   afterFile,
+  beforeContextFile,
+  afterContextFile,
+  changeMapFile,
+  beforeDate,
+  afterDate,
   locationHint,
   eventTypeHint,
+  analysisFocus = "full_frame",
+  includeEnhancedAfter = true,
 }: RunAnalysisArgs): Promise<SatelliteAnalysisResult> {
   const analysisTimestamp = new Date().toISOString();
-  const preparedBefore = await prepareReviewFile(beforeFile, analysisTimestamp);
-  const preparedAfter = await prepareReviewFile(afterFile, analysisTimestamp);
+  const [
+    preparedBefore,
+    preparedAfter,
+    preparedBeforeContext,
+    preparedAfterContext,
+    preparedChangeMap,
+  ] = await Promise.all([
+    prepareReviewFile(beforeFile, analysisTimestamp),
+    prepareReviewFile(afterFile, analysisTimestamp),
+    beforeContextFile ? prepareReviewFile(beforeContextFile, analysisTimestamp) : null,
+    afterContextFile ? prepareReviewFile(afterContextFile, analysisTimestamp) : null,
+    changeMapFile ? prepareReviewFile(changeMapFile, analysisTimestamp) : null,
+  ]);
+  const enhancedAfterFileId = { current: "" };
+  const filesToUpload = [
+    preparedBeforeContext,
+    preparedAfterContext,
+    preparedBefore,
+    preparedAfter,
+    preparedChangeMap,
+  ].filter((file): file is PreparedReviewedFile => Boolean(file));
 
-  await uploadFiles([preparedBefore, preparedAfter]);
+  await Promise.all([
+    uploadFiles(filesToUpload),
+    (async () => {
+      if (!includeEnhancedAfter) {
+        return;
+      }
+
+      const enhanced = await enhanceForAnalysis(preparedAfter.buffer, afterFile.file.name);
+      const enhancedAfterFile = new File([new Uint8Array(enhanced.buffer)], enhanced.filename, {
+        type: enhanced.mimeType,
+      });
+      const client = getOpenAIClient();
+      const uploaded = await client.files.create({
+        file: enhancedAfterFile,
+        purpose: "user_data",
+      });
+      enhancedAfterFileId.current = uploaded.id;
+    })(),
+  ]);
 
   const client = getOpenAIClient();
+  const imageInputs: Responses.ResponseInputContent[] = [];
+
+  if (preparedBeforeContext && preparedAfterContext) {
+    imageInputs.push(toResponseInput(preparedBeforeContext), toResponseInput(preparedAfterContext));
+  }
+
+  imageInputs.push(toResponseInput(preparedBefore), toResponseInput(preparedAfter));
+
+  if (preparedChangeMap) {
+    imageInputs.push(toResponseInput(preparedChangeMap));
+  }
+
+  if (enhancedAfterFileId.current) {
+    imageInputs.push({
+      type: "input_image",
+      file_id: enhancedAfterFileId.current,
+      detail: "high",
+    });
+  }
+
   const response = await client.responses.parse({
     model: getReviewModel(),
     input: [
@@ -59,12 +131,17 @@ export async function runSatelliteAnalysis({
             text: buildSatelliteAnalysisPrompt({
               locationHint,
               eventTypeHint,
+              beforeDate,
+              afterDate,
+              analysisFocus,
+              includeContextImages: Boolean(preparedBeforeContext && preparedAfterContext),
+              includeChangeMap: Boolean(preparedChangeMap),
+              includeEnhancedAfter,
               beforeFileName: beforeFile.file.name,
               afterFileName: afterFile.file.name,
             }),
           },
-          toResponseInput(preparedBefore),
-          toResponseInput(preparedAfter),
+          ...imageInputs,
         ],
       },
     ],

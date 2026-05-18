@@ -1,0 +1,50 @@
+{
+  "id": "ukraine-damage-20260517010124-case-0026",
+  "title": "Ukraine damage case 0026",
+  "label": "Moderate Damage",
+  "location": "Kremenchuk, Ukraine",
+  "lat": 49.09667711649793,
+  "lon": 33.44356924892578,
+  "bbox": [
+    33.43670965640935,
+    49.09218556062297,
+    33.45042884144222,
+    49.101168672372886
+  ],
+  "beforeDate": "2021-06-09",
+  "afterDate": "2026-04-30",
+  "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0026/before.webp",
+  "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0026/after.webp",
+  "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+  "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+  "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+  "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+  "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+  "generatedAt": "2026-05-17T01:02:28.671Z",
+  "bboxSizeMeters": 1000,
+  "properties": {
+    "originalFeatureProperties": {
+      "unosat_id": 19870,
+      "date": "2022-06-29T00:00:00Z",
+      "damage": 2,
+      "layer": "damage_assessment",
+      "gdb": "Kremenchuk_CDA_20220629",
+      "city": "Kremenchuk",
+      "country": "Ukraine",
+      "ep": 1,
+      "prev_date": null,
+      "prev_damage": -99,
+      "aoi": "UKR17"
+    },
+    "normalized": {
+      "damageField": "damage",
+      "damageLabel": "Moderate Damage",
+      "objectId": "19870",
+      "locationName": "Kremenchuk, Ukraine",
+      "imageryDate": "2022-06-29T00:00:00Z",
+      "confidence": null,
+      "notes": null,
+      "warnings": []
+    }
+  }
+}

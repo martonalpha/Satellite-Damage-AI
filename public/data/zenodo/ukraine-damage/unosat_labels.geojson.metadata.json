@@ -1,0 +1,16 @@
+{
+  "source": "Zenodo / Ukraine Damage Mapping Tool",
+  "recordId": "14811504",
+  "recordUrl": "https://zenodo.org/records/14811504",
+  "doi": "10.5281/zenodo.14811504",
+  "title": "An open-source tool for mapping war destruction at scale in Ukraine using Sentinel-1 time series",
+  "file": {
+    "key": "unosat_labels",
+    "name": "unosat_labels.geojson",
+    "description": "UNOSAT building-level damage labels from the Ukraine damage mapping dataset.",
+    "size": 7353699,
+    "url": "https://zenodo.org/api/records/14811504/files/unosat_labels.geojson/content"
+  },
+  "importedAt": "2026-05-15T23:31:06.553Z",
+  "featureCount": 18686
+}

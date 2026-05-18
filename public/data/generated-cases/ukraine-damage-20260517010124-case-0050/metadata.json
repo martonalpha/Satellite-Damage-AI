@@ -1,0 +1,50 @@
+{
+  "id": "ukraine-damage-20260517010124-case-0050",
+  "title": "Ukraine damage case 0050",
+  "label": "Moderate Damage",
+  "location": "Hostomel, Ukraine",
+  "lat": 50.584482795143686,
+  "lon": 30.251938117053342,
+  "bbox": [
+    30.244864129705448,
+    50.57999123926873,
+    30.259012104401236,
+    50.58897435101864
+  ],
+  "beforeDate": "2021-06-09",
+  "afterDate": "2026-04-30",
+  "beforeImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0050/before.webp",
+  "afterImage": "/data/generated-cases/ukraine-damage-20260517010124-case-0050/after.webp",
+  "sourceDataset": "Zenodo / Ukraine Damage Mapping Tool / UNOSAT Labels",
+  "sourceGeojson": "/data/zenodo/ukraine-damage/unosat_labels.geojson",
+  "satelliteSource": "Esri World Imagery Wayback (Maxar/Nearmap ~0.4m/pixel)",
+  "usageNote": "UNOSAT damage labels combined with Esri World Imagery Wayback tiles for high-resolution before/after comparison.",
+  "confidenceNote": "Imagery sourced from Esri World Imagery basemap archive (~0.4m/pixel at zoom 18). Building-level damage should be visible for structures ≥20m.",
+  "generatedAt": "2026-05-17T01:03:23.948Z",
+  "bboxSizeMeters": 1000,
+  "properties": {
+    "originalFeatureProperties": {
+      "unosat_id": 12727,
+      "date": "2022-03-31T00:00:00Z",
+      "damage": 2,
+      "layer": "Hostomel_31March2022_CDA",
+      "gdb": "CE20220223UKR_UNOSAT_Damage",
+      "city": "Hostomel",
+      "country": "Ukraine",
+      "ep": 1,
+      "prev_date": null,
+      "prev_damage": -99,
+      "aoi": "UKR2"
+    },
+    "normalized": {
+      "damageField": "damage",
+      "damageLabel": "Moderate Damage",
+      "objectId": "12727",
+      "locationName": "Hostomel, Ukraine",
+      "imageryDate": "2022-03-31T00:00:00Z",
+      "confidence": null,
+      "notes": null,
+      "warnings": []
+    }
+  }
+}
